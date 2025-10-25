@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Earning Hub - روزانہ آمدنی</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial; }
+        body { background: #1e3799; color: white; }
+        .header { background: #0c2461; padding: 20px; text-align: center; }
+        .nav { background: #4a69bd; padding: 15px; text-align: center; }
+        .nav a { color: white; text-decoration: none; margin: 0 15px; }
+        .container { max-width: 1000px; margin: 20px auto; padding: 20px; }
+        .earning-box { background: white; color: black; padding: 20px; border-radius: 10px; margin: 20px 0; text-align: center; }
+        .method { background: #f8f9fa; padding: 15px; margin: 10px 0; border-radius: 5px; }
+        .btn { background: #e74c3c; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>💰 Online Earning Hub</h1>
+        <p>روزانہ حقیقی آمدنی</p>
+    </div>
+
+    <div class="nav">
+        <a href="#home">ہوم</a>
+        <a href="#methods">طریقے</a>
+        <a href="#contact">رابطہ</a>
+    </div>
+
+    <div class="container">
+        <div class="earning-box">
+            <h2>🎯 Daily Income: $20-50</h2>
+            <p>Google AdSense + Affiliate Marketing</p>
+        </div>
+
+        <div class="method">
+            <h3>1. Google AdSense</h3>
+            <p>ہر کلک پر آمدنی: $0.10 - $1.00</p>
+            <button class="btn">Start Now</button>
+        </div>
+
+        <div class="method">
+            <h3>2. Amazon Affiliate</h3>
+            <p>ہر فروخت پر کمیشن: $5 - $50</p>
+            <button class="btn">Start Now</button>
+        </div>
+
+        <div class="method">
+            <h3>3. CPA Marketing</h3>
+            <p>ہر signup پر کمیشن: $2 - $20</p>
+            <button class="btn">Start Now</button>
+        </div>
+    </div>
+
+    <script>
+        // Real earning simulation
+        function simulateEarning() {
+            const earnings = Math.random() * 30 + 10; // $10-40 daily
+            alert(`Today's earning: $${earnings.toFixed(2)}`);
+        }
+        
+        document.querySelectorAll('.btn').forEach(btn => {
+            btn.addEventListener('click', simulateEarning);
+        });
+    </script>
+</body>
+</html>
